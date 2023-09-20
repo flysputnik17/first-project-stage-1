@@ -1,5 +1,10 @@
 .page {
-  /* Add page class properties here */
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: "Helvetica neue", arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header {
@@ -14,15 +19,19 @@
 }
 
 .nav {
-  /* Add flex properties here */
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__logo {
 }
 
 .nav__links {
-  /* Reset default list styles here */
   margin: 8px 0 0;
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  padding: 0;
 }
 
 .nav__link {
@@ -32,9 +41,18 @@
 }
 
 .header__title {
+  max-width: 601px;
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 500;
+  margin: 128px 0 0;
 }
 
 .header__description {
+  max-width: 532px;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 32px 0 0;
 }
 
 .header__image {
