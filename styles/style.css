@@ -161,6 +161,10 @@
   margin: 40px 0 60px;
 }
 
+.events__more:hover {
+  color: #1f69c9;
+}
+
 .events__more {
   color: #2f80ed;
   text-decoration: none;
@@ -447,6 +451,10 @@
 .footer__column-link {
   color: white;
   text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color: #1f69c9;
 }
 
 .footer__social-icon {
