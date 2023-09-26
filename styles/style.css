@@ -1,4 +1,5 @@
 .page {
+  background-color: #fff;
   min-width: 1100px;
   max-width: 1600px;
   margin: 0 auto;
@@ -42,7 +43,7 @@
   font-weight: bold;
 }
 
-.nav__links :hover {
+.nav__link:hover {
   color: #1f69c9;
 }
 
@@ -101,10 +102,6 @@
   background-color: #f2f2f2;
 }
 
-.events:hover {
-  color: #1f69c9;
-}
-
 .events__content {
   flex-basis: 580px;
 }
@@ -161,13 +158,12 @@
   margin: 40px 0 60px;
 }
 
-.events__more:hover {
-  color: #1f69c9;
-}
-
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
@@ -457,4 +453,8 @@
 .footer__copyright {
   color: #fff;
   margin: 108px 0 0;
+}
+
+.footer__column-link:hover {
+  color: #c1c1c1;
 }
