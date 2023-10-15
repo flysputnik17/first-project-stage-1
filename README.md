@@ -3,6 +3,8 @@
 The Triple Peaks Library webpage is the first project in the Software Engineering
 program at TripleTen. It was created using HTML and CSS, based on a design brief.
 
+![alt-text](./images/landing%20page.png)
+
 ## Project features
 
 - Semantic HTML5
